@@ -3,7 +3,7 @@ const db = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "root", // Replace 'your_password' with the actual password
-    database: "Users"
+    database: "orm_users_data"
 });
 
 db.connect((err: Error) => {
